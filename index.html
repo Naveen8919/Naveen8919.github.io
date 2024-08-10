@@ -48,23 +48,9 @@
             width: 100%;
             bottom: 0;
         }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background-color: #0073e6;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #005bb5;
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -91,35 +77,25 @@
 <section id="knowledge">
     <h2>Medical Billing Knowledge</h2>
     <p>Here, you'll find resources and information to deepen your understanding of US medical billing practices, regulations, and industry standards.</p>
-    <!-- Add more content here -->
 </section>
 
 <section id="updates">
     <h2>Updates</h2>
     <p>Stay updated with the latest news and changes in the US medical billing industry. Check back regularly for the most recent information.</p>
-    <!-- Add more content here -->
 </section>
 
 <section id="jobs">
     <h2>Job Openings</h2>
     <p>Explore current job openings in the US medical billing field. Whether you're looking for a new opportunity or just curious about the job market, this section has you covered.</p>
-    <!-- Add more content here -->
 </section>
 
 <section id="contact">
     <h2>Contact Me</h2>
-    <form class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-    <p>Connect with me on social media:</p>
-    <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">Twitter</a> |
-        <a href="#">Facebook</a>
-    </p>
+    <div class="form-container">
+        <!-- Google Form Embed Code Starts Here -->
+        <iframe src="https://docs.google.com/forms/d/e/your-google-form-id/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <!-- Google Form Embed Code Ends Here -->
+    </div>
 </section>
 
 <footer>
